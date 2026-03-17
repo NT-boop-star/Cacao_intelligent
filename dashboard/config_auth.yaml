@@ -1,0 +1,29 @@
+cookie:
+  expiry_days: 30
+  key: cacao_intelligent_secret_key_2026
+  name: cacao_cookie
+credentials:
+  usernames:
+    '0501020304':
+      email: konan5@test.com
+      first_name: Konan
+      last_name: Yao
+      logged_in: false
+      password: $2b$12$afgcHjcvqQEbsi1DqVWSDu84/1Hkm7oe.7m7C1rh.NLNIxBksNIfy
+      roles: null
+    '0701020304':
+      email: test@test.com
+      first_name: Konan
+      last_name: Yao
+      logged_in: false
+      password: $2b$12$GlppYRSoXDwuzYIg0mzg9um9MUGBzaXHnMRx3MjmG4QDJpU99HJE6
+      roles: null
+    0799603921:
+      email: nethaniakonan@gmail.com
+      first_name: Nethania
+      last_name: Konan
+      logged_in: false
+      password: $2b$12$B7HdKoRUSsQFd8kpucCnfOVzvSQJD00PSZ1mqw5hwmDpI.5jDONDW
+      roles: null
+pre-authorized:
+  emails: []

@@ -1,0 +1,86 @@
+{
+  "0501020304": {
+    "id": "CI-2026-0001",
+    "prenom": "Konan",
+    "nom": "Yao",
+    "telephone": "0501020304",
+    "cooperative": "COOP-SOUBRE",
+    "cree_le": "2026-01-15",
+    "parcelle": {
+      "latitude": 5.7833,
+      "longitude": -6.5833,
+      "superficie": 3.5
+    },
+    "eudr": {
+      "verifie": false,
+      "statut": null,
+      "date_verification": null,
+      "source": null
+    },
+    "historique": []
+  },
+  "0799603921": {
+    "parcelle": {
+      "latitude": 4.5,
+      "longitude": -6.0,
+      "superficie": 3.0
+    },
+    "eudr": {
+      "verifie": true,
+      "statut": "CONFORME",
+      "date_verification": "2026-03-08 15:13",
+      "source": "Global Forest Watch / Hansen GFC"
+    },
+    "lots": [
+      {
+        "id": "LOT-CI-2026-4862",
+        "date_creation": "2026-03-08",
+        "date_recolte": "2026-03-05",
+        "poids_kg": 150.0,
+        "statut": "EXPORTÉ",
+        "cooperative": "",
+        "exportateur": null,
+        "historique_statuts": [
+          {
+            "statut": "EN_ATTENTE",
+            "date": "2026-03-08 15:29"
+          },
+          {
+            "statut": "COLLECTÉ",
+            "date": "2026-03-08 15:37"
+          },
+          {
+            "statut": "EN_TRANSIT",
+            "date": "2026-03-08 15:37"
+          },
+          {
+            "statut": "EXPORTÉ",
+            "date": "2026-03-08 15:37"
+          }
+        ]
+      }
+    ],
+    "historique": [
+      {
+        "date": "2026-03-15 11:08",
+        "action": "ACTION_MANUELLE",
+        "contexte": {
+          "saison": "Grande saison seche",
+          "irrigation": 1,
+          "pulverisation": 0,
+          "maladie": "FROSTYPOD"
+        }
+      },
+      {
+        "date": "2026-03-10 15:32",
+        "action": "PULVERISER",
+        "contexte": {
+          "saison": "Grande saison seche",
+          "irrigation": 0,
+          "pulverisation": 1,
+          "maladie": "HEALTHY"
+        }
+      }
+    ]
+  }
+}

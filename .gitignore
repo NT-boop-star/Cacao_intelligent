@@ -1,0 +1,98 @@
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+venv_tf/
+env/
+ENV/
+.venv/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+
+# =========================
+# Dataset / Data
+# =========================
+data/
+datasets/
+dataset/
+detection/dataset/
+
+# =========================
+# Machine Learning models
+# =========================
+model/
+
+*.h5
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.onnx
+*.keras
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.swp
+
+# =========================
+# Python build files
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Gemini / AI artifacts
+# =========================
+.gemini/
+
+# =========================
+# Jupyter notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Node modules (si dashboard React)
+# =========================
+node_modules/
+
+# =========================
+# Large archives
+# =========================
+*.zip
+*.tar
+*.gz
+*.rar
