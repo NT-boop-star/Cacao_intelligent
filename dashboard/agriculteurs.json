@@ -37,7 +37,7 @@
         "date_creation": "2026-03-08",
         "date_recolte": "2026-03-05",
         "poids_kg": 150.0,
-        "statut": "EXPORTÉ",
+        "statut": "EXPORT\u00c9",
         "cooperative": "",
         "exportateur": null,
         "historique_statuts": [
@@ -46,7 +46,7 @@
             "date": "2026-03-08 15:29"
           },
           {
-            "statut": "COLLECTÉ",
+            "statut": "COLLECT\u00c9",
             "date": "2026-03-08 15:37"
           },
           {
@@ -54,13 +54,80 @@
             "date": "2026-03-08 15:37"
           },
           {
-            "statut": "EXPORTÉ",
+            "statut": "EXPORT\u00c9",
             "date": "2026-03-08 15:37"
+          }
+        ]
+      },
+      {
+        "id": "LOT-CI-2026-6142",
+        "date_creation": "2026-04-04",
+        "date_recolte": "2026-04-04",
+        "poids_kg": 50.0,
+        "statut": "EXPORT\u00c9",
+        "cooperative": "",
+        "exportateur": null,
+        "historique_statuts": [
+          {
+            "statut": "EN_ATTENTE",
+            "date": "2026-04-04 20:47"
+          },
+          {
+            "statut": "COLLECT\u00c9",
+            "date": "2026-04-04 20:47"
+          },
+          {
+            "statut": "EN_TRANSIT",
+            "date": "2026-04-04 20:47"
+          },
+          {
+            "statut": "EXPORT\u00c9",
+            "date": "2026-04-04 20:47"
           }
         ]
       }
     ],
     "historique": [
+      {
+        "date": "2026-04-04 20:44",
+        "action": "PULVERISER",
+        "contexte": {
+          "saison": "Grande saison des pluies",
+          "irrigation": 0,
+          "pulverisation": 1,
+          "maladie": "MIRID"
+        }
+      },
+      {
+        "date": "2026-04-04 20:41",
+        "action": "PULVERISER",
+        "contexte": {
+          "saison": "Grande saison des pluies",
+          "irrigation": 0,
+          "pulverisation": 1,
+          "maladie": null
+        }
+      },
+      {
+        "date": "2026-04-04 20:38",
+        "action": "PULVERISER",
+        "contexte": {
+          "saison": "Grande saison des pluies",
+          "irrigation": 0,
+          "pulverisation": 1,
+          "maladie": null
+        }
+      },
+      {
+        "date": "2026-04-01 10:38",
+        "action": "PULVERISER",
+        "contexte": {
+          "saison": "Grande saison des pluies",
+          "irrigation": 0,
+          "pulverisation": 1,
+          "maladie": "BLACKPOD"
+        }
+      },
       {
         "date": "2026-03-15 11:08",
         "action": "ACTION_MANUELLE",

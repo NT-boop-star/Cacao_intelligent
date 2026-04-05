@@ -89,8 +89,6 @@ def afficher():
             {"valeur": round(float(lecture.get("humidite_air", 0)), 1), "titre": "Humidite air",  "unite": "%",  "min": 0, "max": 100, "seuils": SEUILS_HUM},
             {"valeur": round(float(lecture.get("pluie",        0)), 1), "titre": "Pluie capteur", "unite": "mm", "min": 0, "max": 30,  "seuils": SEUILS_PLUIE},
         ])
-    elif not esp32:
-        st.markdown("<div class='card' style='text-align:center;padding:24px'><p style='color:#9E9E9E;font-size:14px'>ESP32 hors ligne — jauges capteurs indisponibles.</p></div>", unsafe_allow_html=True)
 
     # Bouton de rafraichissement manuel (non-bloquant pour la sidebar)
     col_r1, col_r2, col_r3 = st.columns([1, 1, 1])
